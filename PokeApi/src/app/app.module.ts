@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { EvoListComponent } from './components/evo-list/evo-list.component';
-import { provideHttpClient } from '@angular/common/http';
+import { PokeListComponent } from './components/poke-list/poke-list.component';
 import { MenuComponent } from './shared/menu/menu.component';
+import { provideHttpClient } from '@angular/common/http';
+import { EvoListComponent } from './components/evo-list/evo-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    PokeListComponent,
     EvoListComponent,
     MenuComponent
   ],
