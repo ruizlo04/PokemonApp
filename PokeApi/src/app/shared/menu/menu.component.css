@@ -18,7 +18,7 @@
 }
 
 .nav-link {
-    color: #3b4cca; 
+    color: #3b4cca;
     font-size: 18px;
     font-weight: bold;
     padding: 10px 15px;
@@ -27,7 +27,7 @@
 }
 
 .nav-link:hover {
-    color: #cc0000; 
+    color: #cc0000;
 }
 
 .navbar-toggler {
@@ -35,7 +35,7 @@
 }
 
 .navbar-toggler-icon {
-    background-color: #3b4cca;
+    background-color: #3b4cca; 
 }
 
 .collapse {
